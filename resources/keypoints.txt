@@ -1,0 +1,64 @@
+why recommendation system?
+cognition at core of the business.
+look at overall customer journey
+Then run campaign to bring in more customer and engage
+better customer experience through personalization, navigation 
+from search till checkout
+
+
+1.Rule based recommendation engine
+->  suppose a product is frequently bought by majority of customers, the system will learn that is msot popular and recommend
+->  Popularity based does not have cold start problem but it is not personalized
+    to every new user which has joined
+
+2.Market Basket Analysis (Bundling)
+->  Apriori algorithm is implemented Using itemsets.
+->  Confidence support and lift. 
+->  FP growth algorithm (frequent pattern)
+
+3.Content Based
+->  Content based filtering based item description and user profile
+->  cosine similaritity 
+->  Keywords are used. field of information retrieval
+
+4.Hybrid model
+->  solve typical issues in recommendation such as cold start and sparsity 
+
+5. clustering
+->  cluster customers based on product liking
+
+6. classification
+->  The model that uses features of both products as well 
+    as users to predict whether a user will like a product or not
+->  application buyer propensity model
+->  Propensity modeling attempts to predict the likelihood that visitors, leads,
+    and customers will perform certain actions
+-> RFM based features
+
+7. Deep learning models
+->  lightfm hybrid recommender system (single model rather 2 models)
+->  capture text or product description -NLP, tfidf, description to features
+->  To capture semantic meaning use word2vec, BERT, Transformers
+->  DNN (Deep nerual networks), CNN (Convolutional neural network)
+->  RBM, autoencoder based recommendation system
+->  library- Tensorvec
+
+8. Knowledge graph based recommendation
+->  Knowledge craft connects users and items through different relationships to 
+    obtain an explanable candidate list for target user.
+->  KGE (Knowledge graph embedding)
+
+__________________________________________________________
+
+Data and similaritity measures:
+
+1. user behaviour data
+->  user's involvemnt in a product
+->  ratings, clicks, purchase history can all be used
+
+2. User demographic data
+->  User demographic information is related to age, education, income an location
+
+3. Product attribute data
+->  Product attribute data refers to information on the product itself,
+    genre
