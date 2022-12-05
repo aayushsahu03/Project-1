@@ -6,7 +6,6 @@ import pandas as pd
 
 print("hello venv")
 
-
 s = pd.Series(['cat', 'dog', np.nan, 'rabbit'])
 print(s.map(lambda x: x+' yo' if pd.notna(x) else 'yo'))
 
@@ -29,8 +28,3 @@ plt.imshow(wordcloud)
 plt.axis("off")
 plt.tight_layout(pad = 0)
 plt.show()
-
-
-
-
-
