@@ -1,2 +1,22 @@
-Hey My name is aayush
 
+git hash-object
+git cat-file -p	# print contents of object
+git cat-file -s	# size of object	
+git cat-file -t	# type of object
+git has-object <file> -w	# type of object
+
+git mktree # make a tree directory
+git ls-files -s # list files in staging area
+
+git add <file> # add file to staging  area
+git reset <file> # remove file to staging  area
+
+git read-tree <sha1 hash> # reads tree into staging area
+find .git/objects  -type f # find all objects in .git folder of file type
+git checkout-index -a # checkout all files in Staging area
+
+git config --global user.name <Name>
+git config --global user.email <email>
+git config --list
+git config --list
+git rm --cached <filename>
